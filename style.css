@@ -1,0 +1,350 @@
+
+
+ *{
+    margin:0; 
+    padding: 0;
+    
+} 
+html{
+    scroll-behavior:smooth;
+    font-size: 100%;
+} 
+body{
+    font-family:font-family:'poppins',sans-serif;
+    overflow-x:hidden;
+    
+} 
+#hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+} 
+#hero::before{
+    position: absolute;
+    content:""; 
+    top: 0;
+    left: 0;
+    width: 100%;height: 100%;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(40%);
+}
+#hero_content{
+    position: absolute;
+}
+#hero_content h1{
+    color: #fff;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 2px #000;
+}
+#hero_content h2{
+    color: #fff;
+    font-size: 2.8rem;
+    font-family: cursive; 
+    margin-top: 1rem;
+    margin-bottom: 4rem ;
+
+}
+#hero_content a{
+    color: #fff;
+    padding: 3px 20px 3px 20px;
+    border: 1px solid orange;
+    background: rgb(0,0,0,0.6);
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 25px; 
+
+}
+#hero_content a:hover{
+    background:orange ;
+/*header section*/
+}
+#header{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 70px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background:rgb(0,0,0,0.5);
+}
+#navbar h1{
+    color:orange;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px #000;
+    font-family: cursive;
+    ;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+}
+#navbar ul li:hover{
+    background: orange;cursor: pointer;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+
+}
+/*menu section begin*/
+.menu-header {
+    background-color: #291d19;
+    color: white;
+    padding: 15px 0; 
+    text-decoration: none;
+} 
+ 
+
+
+.menu-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    
+    
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    
+    
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(5, 5, 5, 0.1);
+    transition: transform 0.3s ease; 
+    margin-top: 1rem;
+    margin-bottom: 4rem ;
+
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.food1-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/fate.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.food2-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/3104b7d4-b626-474c-9ee0-8efe2350b646.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+
+}
+.food3-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/5c491b52-ec78-48c9-be4b-cc5a85631bf5.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.food4-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/07e5ed1a-79f6-4b31-84df-589caf7e9c81.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.food5-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/11df36d6-2b1a-4647-b3b1-b4a32756723f.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.food6-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(/image/3ac05155-7e73-4afb-9239-b9bf8b238b0e.jpg);
+    border-radius: 0px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+
+
+.menu-item h2 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: #f9f8f7; 
+    
+    
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #f4efef;
+}
+#backgroun{
+    top: 0;
+    left: 0;
+    width: 100%;height: 100%;
+    background-color: #666;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgb(143, 142, 142);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+main h2 {
+    font-size: 2rem;
+    color: #fcfbfa;
+    margin-bottom: 10px;
+}
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+header {
+    background-color: #676767;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(94, 78, 78);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    color: #fcf6f5;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #fcfbfb;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+form button {
+    background-color: #f7f3f2;
+    color:black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: #795044;
+}
+#flag{ 
+    background: rgb(0, 0, 0) url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXVibGthbXQzMzJ6ZTh6M3B0a3V4aHN2ZHcya2oxMW1tdDdodDN5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3osxYzUOBRWEg5S5q0/giphy.webp);
+    background-size: 50%; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    z-index: 100; 
+    background-repeat: no-repeat;
+    background-position: center center 
+  }
+  .hidden{
+    display: none;
+  }
+.price  {
+    color:orange;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
